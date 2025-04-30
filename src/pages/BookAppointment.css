@@ -1,0 +1,90 @@
+.appointment-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    background-color: #e6f0fa;
+    
+  }
+  
+  .appointment-form {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 20px rgba(0,0,0,0.1);
+    width: 400px;
+    margin-top: 100px;
+    margin-bottom:70px;
+  }
+  
+  .appointment-form h2 {
+    
+    text-align: center;
+    color: #023469;
+    
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="date"],
+  input[type="time"],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  input[disabled] {
+    background-color: #f0f0f0;
+  }
+  
+  .book-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #023469;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .book-btn:hover {
+    background-color: #011f40;
+  }
+  .appointment-list {
+    list-style: none;
+    padding: 0;
+    color:white;
+  }
+  
+  .appointment-item {
+    background: rgba(104, 146, 168, 0.9);
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .cancel-btn {
+    background-color: #023469;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    margin-top: 8px;
+    cursor: pointer;
+  }
+  
+  .cancel-btn:hover {
+    background-color: #011f40;
+  }
+
+  .h3 {color:black !important;}

@@ -1,0 +1,56 @@
+.treatments-page {
+    padding: 40px 20px;
+    background: url('./images/treatment.jpg') no-repeat center center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #f0f4ff, #ffffff);
+    text-align: center;
+    margin-bottom: 100px;
+  }
+  
+  .treatments-page h2 {
+    margin-bottom: 30px;
+    color: #023469;
+    font-size: 2rem;
+  }
+  
+  .treatment-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+  }
+  
+  .treatment-card {
+    background-color: rgba(104, 146, 168, 0.9);
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.12);
+    padding: 20px;
+    width: 280px;
+    transition: transform 0.3s;
+  }
+  
+  .treatment-card:hover {
+    transform: translateY(-8px);
+  }
+  
+  .treatment-img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+  }
+  .book-btn {
+    background-color: #023469;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  .book-btn:hover {
+    background-color: #023469;
+  }
+  
