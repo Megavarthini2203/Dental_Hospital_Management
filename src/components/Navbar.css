@@ -1,0 +1,89 @@
+/* Navbar.css */
+.navbar {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.95);
+    /* background-color: #001f3f !important; Purple-blue theme */
+    padding: 1rem 2rem;
+    color: black !important;
+    z-index: 1000; /* Make sure it stays on top */
+  backdrop-filter: blur(5px);
+  }
+  
+
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  font-family: 'Pacifico', cursive; /* cool different font */
+  font-size: 28px;
+  color: black !important; /* Dark Blue */
+  text-decoration: none;
+}
+
+  
+  .nav-links {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+  }
+  
+  .nav-links a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: color 0.3s ease; 
+  }
+  
+  .nav-links a:hover  {
+    color: #f0f3f5; /* slight color change on hover */
+    text-decoration: underline;
+}
+  .logout-button {
+    background: none;
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+  }
+  
+  .logout-button:hover {
+    color: #023469;
+  }
+  .nav-item {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-item:hover {
+    color: #f0f3f5;
+    text-decoration: underline;
+  }
+  
+  .nav-item.active {
+    color: #023469; /* Highlight color for active link */
+    font-weight: bold;
+    text-decoration: underline;
+  }

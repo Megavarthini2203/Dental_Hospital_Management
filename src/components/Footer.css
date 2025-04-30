@@ -1,0 +1,98 @@
+/* .footer {
+    background-color: #001f3f !important;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    font-size: 0.9rem;
+  }
+ 
+
+  .footer-links a:hover {
+    color: #007bff;
+  }
+  
+  .footer-text {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #777;
+  } */
+  /* Footer normal style */
+/* Footer normal style */
+/* Footer normal style */
+/* Normal Footer */
+.footer {
+    background-color: #023469;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Floating Cards for Home Page */
+  .home-footer {
+    background: transparent; /* No background color */
+    backdrop-filter: none;    /* Remove any blur effect */
+    position: fixed;
+    /* bottom: 30px; */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    z-index: 1000;
+    text-align: left;
+  }
+  
+  .floating-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .floating-card {
+    background-color: #ffffff;
+    color: #023469;
+    padding: 15px 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s;
+  }
+  
+  .floating-card:hover {
+    transform: translateY(-10px);
+    background-color: #f0f8ff;
+  }
+  /* Style links in non-home footer */
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    /* margin-bottom: 10px; */
+  }
+  
+  .footer-links a {
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    transition: color 0.3s, text-decoration 0.3s;
+  }
+  
+  .footer-links a:hover {
+    color: #ffd700; /* Gold shade on hover */
+    text-decoration: underline;
+  }
+  
+  .footer-text {
+    font-size: 0.9rem;
+    color: #dcdcdc;
+  }
+  
